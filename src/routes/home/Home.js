@@ -1,10 +1,9 @@
 import React from 'react';
-import '../home/Home.css'
+import Header from '../../components/header/Header';
+import '../home/Home.css' 
 function Home() {
   return <div>
-
-
-      
+    <Header/>
   </div>;
 }
 
