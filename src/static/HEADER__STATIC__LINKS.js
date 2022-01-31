@@ -1,0 +1,22 @@
+export const HEADER__LINKS= [
+    {
+        id:0,
+        linkName:"Home"
+    },
+    {
+        id:1,
+        linkName:"Grammar"
+    },
+    {
+        id:2,
+        linkName:"IELTS"
+    },
+    {
+        id:3,
+        linkName:"Vocabulary"
+    },
+    {
+        id:4,
+        linkName:"Quizzes"
+    }
+]

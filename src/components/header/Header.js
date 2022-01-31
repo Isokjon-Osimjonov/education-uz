@@ -4,7 +4,10 @@ import '.././header/Header.css'
 function Header() {
     return (
         <div className='header'>
-            Header section
+           <div className="header__main__components">
+               <h1 className='header__logo'>  LEARN ENGLISH</h1>
+            
+           </div>
         </div>
     )
 }

@@ -1,5 +1,21 @@
 .header{
-    width: 98%;
-    height: 60px;
+    width: 99%;
+    height: 80px;
+    background-color: rgb(105, 163, 211);
+    margin: 5px auto;
+    border-radius: 5px;
+}
+.header__main__components{
+    width: 85%;
+    height: 80px;
     background-color: gold;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    font-weight: 800;
+    color: #fff;
+    font-size: 30px;
+
 }
