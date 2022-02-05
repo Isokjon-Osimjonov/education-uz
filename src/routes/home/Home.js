@@ -1,16 +1,16 @@
 import React from "react";
 // import Header from "../../components/header/Header";
 import "../home/Home.css";
-import BcImage from "../../assets/images/Online-Edu.jpg";
-// import BcImg from '../../assets/images/29493.jpg'
+// import BcImage from "../../assets/images/Online-Edu.jpg";
+import BcImg from '../../assets/images/29493.jpg'
 import Certificate from './../../assets/images/certificate.png'
 import Study from './../../assets/images/study.png'
 import Leraning from './../../assets/images/learning.png'
 function Home() {
   return (
     <div className="home">
-      <img src={BcImage} className="home__section__bcimg" alt="Background" />
-      {/* <img src={BcImg} className="home__section__bcimg" /> */}
+      {/* <img src={BcImage} className="home__section__bcimg" alt="Background" /> */}
+      <img src={BcImg} className="home__section__bcimg" alt="" />
       <div className="home__blur"></div>
 
       {/* <div className="home__description">

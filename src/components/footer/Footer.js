@@ -4,11 +4,11 @@ function Footer() {
 
   return (
     <div className="footer">
-      <div className="footer__abowe">SOCIAL MEDIA LINKS</div>
+      {/* <div className="footer__abowe">SOCIAL MEDIA LINKS</div>
       <div className="footer__below">
 
         Copyright
-      </div>
+      </div> */}
     </div>
   );
 }
