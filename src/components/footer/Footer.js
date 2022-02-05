@@ -22,7 +22,7 @@ function Footer() {
       </div>
       <div className="line"></div>
       <div className="footer__below">
-      <p className="copyright__text">Copyright © 2022 All right reserved By Edu-Uz | <a href="http://www.google.com">Privacy Policy </a>| <a href="http://www.google.com">Terms of Use</a>  | <span>Uzbekistan</span> </p>
+      <p className="copyright__text">Copyright © 2022 All Rights Reserved By Edu-Uz | <a href="http://www.google.com">Privacy Policy </a>| <a href="http://www.google.com">Terms of Use</a>  | <span>Uzbekistan</span> </p>
       </div>
     </div>
   );
