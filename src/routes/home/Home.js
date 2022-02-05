@@ -31,7 +31,7 @@ function Home() {
         <div className="home__about__block1">
         <img src={Study} alt="" className="about__block__img" />
             <h1>English Books</h1>
-            <p>Highly rated english books and IELTS books for free</p>
+            <p>Highly rated grammar books and IELTS books for free</p>
         </div>
       </div>
 
