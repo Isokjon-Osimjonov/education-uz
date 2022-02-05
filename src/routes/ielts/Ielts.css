@@ -1,0 +1,85 @@
+.ielts__main__container {
+    width: 90%;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    margin: 0px 5%;
+    margin-top: 20px;
+}
+
+.ielts__sections {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5%;
+
+}
+
+.section__block1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section__block2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.speaking__section,
+.writing__section,
+.listening__section,
+.reading__section,
+.writing__section__tips,
+.speaking__section__tips {
+    width: 28%;
+    height: 600px;
+    background-color: #fd65fdee;
+    border-radius: 65px 0px 65px 0px;
+    border-radius: 40px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaking__section__tips:hover {
+    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    transition: 0.3s;
+}
+
+.writing__section__tips:hover {
+    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    transition: 0.3s;
+}
+
+.speaking__section:hover {
+    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    transition: 0.3s;
+}
+
+.reading__section:hover {
+    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    transition: 0.3s;
+}
+
+.writing__section:hover {
+    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    transition: 0.3s;
+}
+
+.listening__section:hover {
+    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    transition: 0.3s;
+}
+
+.speaking__section:hover {
+    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    transition: 0.3s;
+}

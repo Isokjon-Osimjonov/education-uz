@@ -52,7 +52,7 @@ cursorStyle="|"
 typeSpped={60}
 deleteSpeed={30}
 delaySpeed={1000}
-words={["Learn English Online " , "Get Highest IELTS Bands" , "Get  English Books For Free" , "Get Free English Lessons From Experts"]}
+words={["Learn English Online. " , "Get Highest IELTS Bands." , "Get  English Books For Free." , "Get Free English Lessons From Experts."]}
 
 
 />
