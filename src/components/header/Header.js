@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__main__components">
-        <h1 className="header__logo">LEARN ENGLISH</h1>
+        <Link  to="/" className="header__logo">LEARN ENGLISH</Link>
         <ul className="header__components__links__ul">
           <li>
             <Link to="/"  className="header__link"> Home </Link>
