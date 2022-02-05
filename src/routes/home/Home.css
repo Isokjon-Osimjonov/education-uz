@@ -1,7 +1,7 @@
 .home {
     position: relative;
     width: auto;
-     height: auto;
+    height: auto;
 }
 
 .home__section__bcimg {
@@ -75,11 +75,59 @@
     opacity: 1;
 }
 
-.home__about__block1>h1{
-    padding:  20px 0px;
-    font-size:30px;
+.home__about__block1>h1 {
+    padding: 20px 0px;
+    font-size: 30px;
 }
-.home__about__block1>p{
-font-size: 18px;
-white-space: nowrap;
+
+.home__about__block1>p {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.home__welcome {
+    position: relative;
+    top: 1150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome__title {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(240, 41, 240);
+    font-weight: 700;
+}
+
+.welcome__description {
+    font-size: 25px;
+    letter-spacing: 1px;
+    width: 1070px;
+    height: 150px;
+    color: #222;
+    margin-top: 30px;
+}
+
+.auto__typing {
+    width:80%;
+    height: 100px;
+    position: relative;
+    top: 1150px;
+    margin-left: 20%;
+
+
+}
+
+.auto__typing__title {
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(240, 41, 240);
+
+}
+
+.typwriter__title {
+    font-size: 55px;
+    color: rgb(240, 41, 117);
+
 }
