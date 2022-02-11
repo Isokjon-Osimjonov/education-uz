@@ -35,7 +35,7 @@ function Grammar() {
           <div className="degree_b1">
           <img src={B1Level} alt="" className="degree_img" />
             <h1 className="degree__title">B1 – Intermediate</h1>
-            <p className="degree_description">This level will allow you to communicate with greater confidence and to use the language consistently. In addition, you’ll be able to describe past and present situations.</p>
+            <p className="degree_description">This level will allow you to communicate with greater confidence and to use the language consistently.</p>
             <Link to="/" >  <button className="degree_starting__btn">Start Learning</button> </Link>
           </div>
 

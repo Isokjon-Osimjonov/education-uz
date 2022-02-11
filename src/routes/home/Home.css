@@ -76,7 +76,7 @@
 
 .home__about__block1>p {
     font-size: 18px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .home__welcome {
@@ -125,4 +125,90 @@
     font-size: 55px;
     color: rgb(240, 41, 117);
 
+}
+
+/* media 1366px =============================================================== */
+
+@media screen and (max-width:1366px) and
+(max-width:1366px) {
+    .header {
+        width: 1354px;
+        height: 110px;
+        background-color: #cc28ec;
+        margin: 5px auto;
+        overflow-y: hidden;
+    }
+
+    .header__main__components {
+        width: 1000px;
+        height: 110px;
+        margin: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .header__link {
+        font-size: 24px;
+    }
+
+    .header__logo {
+        width: 300px;
+        height: 40px;
+        font-weight: 800;
+        color: #fff;
+        font-size: 30px;
+        white-space: nowrap;
+        /* background-color: red; */
+
+    }
+
+    .home__section__bcimg {
+        width: 1354px;
+        height: 691px;
+    }
+
+    .home__about {
+        width: 90%;
+        height: 240px;
+        top: 800px;
+        margin: 0px 5%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -70px;
+    }
+
+    .home__about__block1 {
+        width: 28%;
+        height: 220px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px rgb(170, 169, 169);
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+    }
+
+
+    .about__block__img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .home__about__block1>h1 {
+        padding: 10px 0px;
+        font-size: 24px;
+    }
+
+    .home__about__block1>p {
+        position: relative;
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+        text-align: center;
+
+    }
 }

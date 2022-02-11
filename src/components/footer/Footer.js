@@ -9,15 +9,13 @@ function Footer() {
     <div className="footer">
       <div className="footer__above"> 
       <p className="social__media__text"> Our Addresses In Social Networks</p>
-
-
+      
       <div className="social__media__links">
       <div className="media__div"> <img  className="telegram" src={Telegram} alt="" />  <a href="http://www.google.com">Telegram </a>   </div>  
       <div className="media__div"> <img  className="instagram"src={Instagram} alt="" /> <a href="http://www.google.com">Instagram</a>  </div> 
       <div className="media__div"> <img  className="facebook"src={Facebook} alt="" />   <a href="http://www.google.com">Facebook</a>    </div> 
       <div className="phone__div"> <img  className="facebook"src={Phone} alt="" />      <a href="http://www.google.com">Tell: +998 907508090</a>  </div> 
       </div>
-
 
       </div>
       <div className="line"></div>
