@@ -1,10 +1,24 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import "../footer/Footer.css";
 import Telegram from '../../assets/images/tg.png'
 import Instagram from '../../assets/images/instagram.png'
 import Facebook from '../../assets/images/facebook.png'
 import Phone from '../../assets/images/phone.png'
 function Footer() {
+  const location = useLocation(false)
+  if(location.pathname === "/login" ){
+    return <></>;
+  }
+  else if (location.pathname === "/register") {
+    return <></>;
+
+  }
+  else if (location.pathname === "/admin") {
+    return <></>;
+
+  }
+  else{
   return (
     <div className="footer">
       <div className="footer__above"> 
@@ -24,6 +38,7 @@ function Footer() {
       </div>
     </div>
   );
+  }
 }
 
 export default Footer;

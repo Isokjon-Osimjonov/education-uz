@@ -1,8 +1,20 @@
 import React from "react";
 import ".././header/Header.css";
-import { Link } from "react-router-dom";
+import { Link  ,useLocation} from "react-router-dom";
 
 function Header() {
+  const location = useLocation()
+  if(location.pathname === "/login" ){
+    return <></>;
+  } 
+  else if (location.pathname === "/register") {
+    return <></>;
+
+  }  else if (location.pathname === "/admin") {
+    return <></>;
+
+  }
+  else{
   return (
     <div className="header">
       <div className="header__main__components">
@@ -38,6 +50,7 @@ function Header() {
       </div>
     </div>
   );
+  }
 }
 
 export default Header;
