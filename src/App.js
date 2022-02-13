@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 import Ielts from "./routes/ielts/Ielts";
 import Login from "./routes/login/Login";
 import Register from "./routes/register/Register";
+import Contact from "./routes/contact/Contact";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/ielts" component={Ielts} />
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
+          <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </div>

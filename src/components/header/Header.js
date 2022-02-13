@@ -46,8 +46,13 @@ function Header() {
          
         </ul>
 
-        
+       
       </div>
+      <div className="login__register__links">
+          <Link className="header__register__link" to="/register">Sign Up|</Link>
+          <Link className="header__login__link" to="/login">Sign In</Link>
+        </div>
+
     </div>
   );
   }

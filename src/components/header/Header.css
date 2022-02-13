@@ -9,7 +9,8 @@
     margin: 5px auto;
     border-radius: 5px;
     /* background: linear-gradient(70deg, rgba(211, 59, 235, 0.908) 26%, rgba(29, 211, 243, 0.65) 100%); */
-
+    display: flex;
+    align-items: center;
 }
 
 .header__main__components {
@@ -50,6 +51,29 @@
 }
 
 .header__link:hover {
+    color: rgb(196, 192, 192);
+}
+
+.login__register__links {
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header__register__link,
+.header__login__link {
+    font-size: 16px;
+    color: #fff;
+}
+
+.header__register__link:hover {
+    color: rgb(196, 192, 192);
+}
+
+.header__login__link:hover {
     color: rgb(196, 192, 192);
 }
 
