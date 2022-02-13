@@ -134,9 +134,9 @@ a {
 }
 
 
-@media screen and (max-width:1920px) and (min-width:1920px) {
+@media screen and (max-width:1910px) and (min-width:1900px) {
     .footer {
-        width: 1910px;
+        width: 1905px;
         height: 160px;
         border-radius: 5px 5px 3px 3px;
         margin: 0px 5px;

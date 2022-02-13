@@ -2,6 +2,8 @@
     width: 99%;
     height: 80px;
     background-color: #cc28ec;
+    /* background-color: #FEBADF; */
+
     /* background-color: #f1f1f1; */
     /* box-shadow: 0px 0px 3px rgb(155, 153, 153); */
     margin: 5px auto;
@@ -11,19 +13,20 @@
 }
 
 .header__main__components {
-    width: 85%;
+    width: 70%;
     height: 80px;
     /* background-color: gold; */
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .header__logo {
     font-weight: 800;
     color: #fff;
     font-size: 30px;
+    margin: 0px 20px;
 
 }
 
@@ -33,28 +36,20 @@
     display: flex;
     align-items: center;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .header__components__links__ul>li {
-    margin: 0 35px;
+    margin: 0 30px;
     cursor: pointer;
 }
 
 .header__link {
     border: 1px solid transparent;
-    /* color: rgb(247, 239, 239); */
     color: #fff;
-
-    /* width: 140px;
-    height: 40px; */
-
-
 }
 
 .header__link:hover {
-    /* border: 1px solid #fff;
-    border-radius: 5px; */
     color: rgb(196, 192, 192);
 }
 
@@ -91,27 +86,25 @@
 }
 
 /* 1920px ===================================================================== */
-@media screen and (max-width:1920px),
-(min-height:977px) {
+/* @media screen and (min-width:1905px),
+(max-width:1910px) {
     .header {
         width: 99%;
         height: 80px;
         background-color: #cc28ec;
+
     }
 
     .header__main__components {
         width: 75%;
         height: 80px;
-        /* background-color: gold; */
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
 
-    .header__link {
-        font-size: 30px;
-    }
+   
 
     .header__logo {
         font-weight: 800;
@@ -120,12 +113,11 @@
         white-space: nowrap;
 
     }
-}
+} */
 
 
 /* 1366=================================================== */
-@media screen and (max-width:1366px) and (min-width: 1366px)
- {
+@media screen and (max-width:1366px) and (min-width: 1366px) {
     .header {
         width: 1354px;
         height: 80px;
