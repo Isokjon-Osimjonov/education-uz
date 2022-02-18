@@ -1,8 +1,12 @@
 import React from 'react'
 import './Register.css'
 import {Link} from 'react-router-dom'
-import registerImg from "../../assets/images/loginbc.png";
+import registerImg from "../../assets/images/loginbc2.png";
 import Google from "../../assets/images/Google.png";
+
+import { auth } from '../../auth/Firebase_auth';
+import { useHistory} from 'react-router-dom'
+
 function Register() {
   return (
     <div className='register__main__container'>

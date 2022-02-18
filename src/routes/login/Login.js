@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
 import {Link} from 'react-router-dom'
-import LoginImg from "../../assets/images/loginbc1.png";
+import LoginImg from "../../assets/images/loginbc3.png";
 import Google from "../../assets/images/Google.png";
 // import {BiUserCircle} from 'react-icons/bi'
 // import {RiLockPasswordLine} from 'react-icons/ri'
