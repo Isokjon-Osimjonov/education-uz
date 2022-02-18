@@ -1,0 +1,9 @@
+.vocabulary__main__container{
+    width: 90%;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    margin: 0px 5%;
+    margin-top: 85px;
+}

@@ -2,33 +2,28 @@
     width: 99%;
     height: 80px;
     background-color: #fff;
-    /* background-color: #FEBADF; */
-
-    /* background-color: #f1f1f1; */
-    /* box-shadow: 0px 0px 3px rgb(155, 153, 153); */
-    margin: 5px auto;
+    margin: 0px 0.5%;
     border-radius: 5px;
-    /* background: linear-gradient(70deg, rgba(211, 59, 235, 0.908) 26%, rgba(29, 211, 243, 0.65) 100%); */
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    margin-top: -85px;
 }
 
 .header__main__components {
     width: 80%;
     height: 80px;
-    /* background-color: gold; */
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: gold;
+    justify-content: space-between;
 }
 
 
-.logo__img{
-    width: 150px;
-    height: 60px;
-    /* background-color: gold; */
+.logo__img {
+    width: 170px;
+    height: 80px;
 }
 
 
@@ -39,7 +34,6 @@
     align-items: center;
     font-weight: 400;
     font-size: 20px;
-    /* background-color: red; */
     margin-top: 10px;
 }
 
@@ -54,7 +48,7 @@
 }
 
 .header__link:hover {
-    color:#006AFF;
+    color: #006AFF;
 }
 
 .login__register__links {
@@ -72,23 +66,57 @@
     color: #222;
 }
 
-.header__register__link:hover {
-    color: rgb(196, 192, 192);
+
+.header__component {
+    width: auto;
+    height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.header__login__link:hover {
-    color: rgb(196, 192, 192);
-}
-
-.loginbtn__img{
+.loginbtn__img {
     width: 100px;
     height: 50px;
+    margin-top: 10px;
+    margin-right: -20px;
 }
 
-.search__lang{
-    width: 170px;
-    height: 50px;
-    background-color: blue;
+.search__lang {
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px;
+    margin-top: 10px;
+
+}
+
+.search {
+    width: 24px;
+    height: 24px;
+}
+
+.search>img {
+    width: 24px;
+    height: 24px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+
+#select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 55px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /* macbook 2560px==================================================================== */
@@ -103,7 +131,6 @@
     .header__main__components {
         width: 85%;
         height: 80px;
-        /* background-color: gold; */
         margin: auto;
         display: flex;
         align-items: center;

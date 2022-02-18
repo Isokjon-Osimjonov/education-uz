@@ -4,20 +4,19 @@ import { Typewriter } from "react-simple-typewriter";
 // import Header from "../../components/header/Header";
 import "../home/Home.css";
 // import BcImage from "../../assets/images/Online-Edu.jpg";
-import BcImg from "../../assets/images/BcMainImg.jpg";
+// import BcImg from "../../assets/images/BcMainImg.jpg";
+import BcImg1 from "../../assets/images/edu1.png";
 import Certificate from "./../../assets/images/certificate.png";
 import Study from "./../../assets/images/study.png";
 import Leraning from "./../../assets/images/learning.png";
 function Home() {
   return (
     <div className="home">
-      {/* <img src={BcImage} className="home__section__bcimg" alt="Background" /> */}
-      <img src={BcImg} className="home__section__bcimg" alt="" />
-      {/* <div className="home__blur"></div> */}
+      <div className="home__main__img">
+      <img src={BcImg1} className="home__section__bcimg" alt="" />
 
-      {/* <div className="home__description">
-        <h1 className="description__title">LEARN ENGLISH ONLINE </h1>
-      </div> */}
+      </div>
+ 
 
       <div className="home__about">
         <div className="home__about__block1">

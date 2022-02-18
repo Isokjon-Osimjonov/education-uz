@@ -1,31 +1,27 @@
 .home {
-    position: relative;
+    /* position: relative; */
     width: auto;
     height: auto;
+    margin-top: 85px;
+}
+
+.home__main__img {
+    width: 99%;
+    height: 99vh;
+    /* background-color: red; */
+
 }
 
 .home__section__bcimg {
-    width: 99%;
-    height: 90vh;
-    margin: 0px 0.5%;
-    object-fit: cover;
+    width: 90%;
+    height: 90%;
+    margin:0px 5%;
+    margin-top: 30px;
+    object-fit: contain;
     border-radius: 5px;
-    opacity: 1;
-    /* z-index: -5; */
 }
 
-.home__blur {
-    width: 99%;
-    height: 90vh;
-    margin: 0px 0.5%;
-    border-radius: 5px;
-    background: rgb(200, 60, 221);
-    background: linear-gradient(70deg, #bd39d1ec 26%, #30cfebe1);
-    opacity: 0.7;
-    /* z-index: -9 !important; */
-    margin-top: -884px;
-    /* display: none; */
-}
+
 
 .home__description {
     font-weight: 900;
@@ -39,13 +35,14 @@
 }
 
 .home__about {
+    position: relative;
     width: 90%;
     height: 270px;
-    top: 800px;
+    /* top: 70px; */
     margin: 0px 5%;
     display: flex;
     justify-content: space-evenly;
-    margin-top: -70px;
+    /* margin-top: -70px; */
     /* background-color: gold; */
 
 }
@@ -60,7 +57,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 10;
+    z-index: 1;
 }
 
 .about__block__img {
@@ -83,14 +80,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
 .welcome__title {
     font-size: 50px;
     letter-spacing: 2px;
-    color: rgb(240, 41, 240);
+    color: #006AFF;
     font-weight: 700;
 }
 
@@ -100,7 +97,7 @@
     width: 1070px;
     height: 150px;
     color: #222;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .auto__typing {
@@ -117,20 +114,19 @@
 .auto__typing__title {
     font-size: 45px;
     font-weight: 700;
-    color: rgb(240, 41, 240);
+    color: #006AFF;
 
 }
 
 .typwriter__title {
     font-size: 55px;
-    color: rgb(240, 41, 117);
+    color: rgb(111, 113, 233);
 
 }
 
 /* media 1366px =============================================================== */
 
-@media screen and (max-width:1366px) and
-(max-width:1366px) {
+@media screen and (max-width:1366px) and (max-width:1366px) {
     .header {
         width: 1354px;
         height: 110px;

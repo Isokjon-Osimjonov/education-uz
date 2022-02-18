@@ -12,6 +12,9 @@ import Ielts from "./routes/ielts/Ielts";
 import Login from "./routes/login/Login";
 import Register from "./routes/register/Register";
 import Contact from "./routes/contact/Contact";
+import Quiz from "./routes/quiz/Quiz";
+import Vocabulary from "./routes/vocabulary/Vocabulary";
+import Materials from "./routes/materials/Materials";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
           <Route path="/contact" component={Contact} />
+          <Route path="/quiz" component={Quiz} />
+          <Route path="/vocabulary" component={Vocabulary} />
+          <Route path="/materials" component={Materials} />
         </Switch>
         <Footer />
       </div>
