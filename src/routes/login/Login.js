@@ -3,8 +3,7 @@ import "./Login.css";
 import {Link} from 'react-router-dom'
 import LoginImg from "../../assets/images/loginbc3.png";
 import Google from "../../assets/images/Google.png";
-// import {BiUserCircle} from 'react-icons/bi'
-// import {RiLockPasswordLine} from 'react-icons/ri'
+import Back from "../../assets/images/back.svg";
 
 import { useHistory } from "react-router-dom";
 import { auth } from "../../auth/Firebase_auth";
@@ -30,6 +29,7 @@ function Login() {
       <div className="login__container">
       
         <div className="login__img">
+          <Link to="/"> <img src={Back} alt="" className='back__img' />  </Link> 
          
           <img src={LoginImg} alt="" className="login__main__img" />
         </div>

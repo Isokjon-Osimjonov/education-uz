@@ -1,6 +1,8 @@
 import React from "react";
 import ".././header/Header.css";
 import { Link  ,useLocation} from "react-router-dom";
+import Logo from '../../assets/images/login5.svg'
+import Login from '../../assets/images/loginbtn.svg'
 
 function Header() {
   const location = useLocation()
@@ -18,7 +20,15 @@ function Header() {
   return (
     <div className="header">
       <div className="header__main__components">
-        <Link  to="/" className="header__logo">LEARN ENGLISH</Link>
+       <Link  to="/" className="header__logo"><img src={Logo} alt="" className="logo__img" /> </Link>
+
+
+
+        {/* <Link >LEARN ENGLISH</Link> */}
+
+
+
+
         <ul className="header__components__links__ul">
           <li>
             <Link to="/"  className="header__link"> Home </Link>
@@ -45,13 +55,17 @@ function Header() {
           </li>
          
         </ul>
+         <div className="search__lang">
+           
+         </div>
 
+        <div className="login__register__links">
+          <Link className="header__register__link" to="/register"> <img src={Login} alt="" className="loginbtn__img" /> </Link>
+          {/* <Link className="header__login__link" to="/login">Sign In</Link> */}
+        </div>
        
       </div>
-      <div className="login__register__links">
-          <Link className="header__register__link" to="/register">Sign Up|</Link>
-          <Link className="header__login__link" to="/login">Sign In</Link>
-        </div>
+
 
     </div>
   );
@@ -59,3 +73,6 @@ function Header() {
 }
 
 export default Header;
+
+// C5E1F7
+// 8BBAFF

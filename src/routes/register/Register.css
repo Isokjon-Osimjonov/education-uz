@@ -18,11 +18,19 @@
     width: 50%;
     height: 100%;
 }
+
+.back__img{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
 .register__main__img{
-    width: 900px;
+    width: 700px;
     height: 730px;
-    margin-top: 30px;
-    float: left;
+    /* margin-top: 10px; */
+    margin-left: 50px;
 }
 
 .register__form__container{

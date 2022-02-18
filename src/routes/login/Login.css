@@ -29,10 +29,10 @@
 }
 
 .login__main__img {
-    width: 900px;
-    height: 750px;
-    margin-top: 30px;
-    float: left;
+    width: 700px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .login__img__title {
