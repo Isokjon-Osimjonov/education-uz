@@ -1,4 +1,5 @@
-import React from "react";
+import React  from "react";
+import {Link} from 'react-router-dom'
 import { Typewriter } from "react-simple-typewriter";
 // import 'react-simple-typewriter/dist/index.css'
 // import Header from "../../components/header/Header";
@@ -9,6 +10,7 @@ import BcImg1 from "../../assets/images/edu1.png";
 import Certificate from "./../../assets/images/certificate.png";
 import Study from "./../../assets/images/study.png";
 import Leraning from "./../../assets/images/learning.png";
+import Shield from "./../../assets/images/Shield.svg";
 function Home() {
   return (
     <div className="home">
@@ -68,6 +70,11 @@ function Home() {
             />
           </span>
         </h1>
+      </div>
+      <div className="login__sue__div">
+      <img src={Shield} alt="" className="login__sue__img" />
+      <Link to="/login" className="login__sue" >Do yo have an account? </Link>
+
       </div>
     </div>
   );

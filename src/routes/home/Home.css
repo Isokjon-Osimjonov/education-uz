@@ -15,7 +15,7 @@
 .home__section__bcimg {
     width: 90%;
     height: 90%;
-    margin:0px 5%;
+    margin: 0px 5%;
     margin-top: 30px;
     object-fit: contain;
     border-radius: 5px;
@@ -121,8 +121,26 @@
 .typwriter__title {
     font-size: 55px;
     color: rgb(111, 113, 233);
-
 }
+
+.login__sue__div {
+    width: 14%;
+    height: 50px;
+    margin: 0px 43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.login__sue {
+    text-align: center;
+    color: #006AFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login__sue__img {}
 
 /* media 1366px =============================================================== */
 

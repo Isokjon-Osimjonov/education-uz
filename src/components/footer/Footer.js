@@ -25,6 +25,7 @@ function Footer() {
       <div className="footer__line"></div>
       <div className="footer__upper__section">
           
+        <div className="links__media__logo">
         <Link to="/" > <img src={Logo} alt="" className="footer__main__logo"></img></Link>
          <div className="socila__media__links">
            <Link to="" > <img src={Telegram} alt="" className="media__links" /> </Link>
@@ -32,10 +33,30 @@ function Footer() {
            <Link to="" > <img src={Facebook} alt="" className="media__links" /> </Link>
            <Link to="" > <img src={YouTube} alt="" className="media__links" /> </Link>
          </div>
+        </div>
+         <div className="footer__pages1">
+           <h3  className="footer__links__title">Web site</h3>
+            <Link className="footer__link" to="/" >Main page</Link>
+            <Link className="footer__link" to="/contact" >Contact</Link>
+         </div>
+         <div className="footer__pages2">
+           <h3   className="footer__links__title">Informations</h3>
+            <Link className="footer__link" to="/about" >About Us</Link>
+            <Link className="footer__link" to="/" >Security police</Link>
+            <Link className="footer__link" to="/" >Term of use</Link>
+         </div>
+         <div className="footer__pages3">
+           <h3   className="footer__links__title">Contact info</h3>
+           <p className="footer__phone">+998 90 750 80 90</p>
+           <Link className="footer__link">eduuzinfo@gmail.com</Link>
+         </div>
+
+
+
       </div>
       <div className="footer__line"></div>
       <div className="footer__copyright">
-      <p className="copyright__text">Copyright © 2022 <span className="copyright__logo">EduUz </span> All Rights Reserved | <Link to="/" className="footer__security">Privacy Policy </Link>| <Link to="/" className="footer__security" >Terms of Use</Link>  | <span>Uzbekistan</span> </p>
+      <p className="copyright__text">Copyright © 2022 <span className="copyright__logo">EduUz </span> All Rights Reserved | <Link to="/" className="footer__security">Privacy Policy </Link>|  <span>Uzbekistan</span> </p>
       </div>
 
     

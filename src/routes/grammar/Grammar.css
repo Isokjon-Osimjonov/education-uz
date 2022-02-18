@@ -7,6 +7,7 @@
     background-color: #fff;
     margin: 0px 5%;
     margin-top: 85px;
+    margin-bottom: 40px;
 
 }
 
@@ -36,7 +37,7 @@
 .degree_a1 {
     width: 28%;
     height: 600px;
-    background-color: #fd65fdee;
+    background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
     margin-top: 30px;
@@ -83,7 +84,7 @@
 }
 
 .degree_starting__btn:hover {
-    background: #cf58ec;
+    background: #006affa1;
     transition: 0.4s;
     color: aliceblue;
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.658);
@@ -93,7 +94,7 @@
 .degree_a2 {
     width: 28%;
     height: 600px;
-    background-color: #fd65fdee;
+    background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
     margin-top: 30px;
@@ -106,7 +107,7 @@
 .degree_b1 {
     width: 28%;
     height: 600px;
-    background-color: #fd65fdee;
+    background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
     margin-top: 30px;
@@ -120,7 +121,7 @@
 .degree_b2 {
     width: 28%;
     height: 600px;
-    background-color: #fd65fdee;
+    background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
     margin: 30px 0px;
@@ -133,7 +134,7 @@
 .degree_b2-c1 {
     width: 28%;
     height: 600px;
-    background-color: #fd65fdee;
+    background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
     margin: 30px 0px;
@@ -146,7 +147,7 @@
 .degree_c1 {
     width: 28%;
     height: 600px;
-    background-color: #fd65fdee;
+    background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
     margin: 30px 0px;
@@ -157,37 +158,37 @@
 }
 
 .degree_a1:hover {
-    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.5s;
 
 }
 
 .degree_a2:hover {
-    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.3s;
 
 }
 
 .degree_b1:hover {
-    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.5s;
 
 }
 
 .degree_b2:hover {
-    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.5s;
 
 }
 
 .degree_b2-c1:hover {
-    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.5s;
 
 }
 
 .degree_c1:hover {
-    box-shadow: 0px 0px 14px 1px rgba(226, 45, 250, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.5s;
 
 }
@@ -239,7 +240,7 @@
         position: relative;
         width: 30%;
         height: 500px;
-        background-color: #fd65fdee;
+        background-color: #83b3f1;
         border-radius: 65px 0px 65px 0px;
         border-radius: 40px;
         margin-top: 30px;
