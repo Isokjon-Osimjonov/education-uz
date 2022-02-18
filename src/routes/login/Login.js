@@ -1,11 +1,30 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Login.css";
 import {Link} from 'react-router-dom'
 import LoginImg from "../../assets/images/loginbc3.png";
 import Google from "../../assets/images/Google.png";
 // import {BiUserCircle} from 'react-icons/bi'
 // import {RiLockPasswordLine} from 'react-icons/ri'
+
+import { useHistory } from "react-router-dom";
+import { auth } from "../../auth/Firebase_auth";
+
 function Login() {
+
+  const history = useHistory();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const loginUse = (e) => {
+    e.preventDefault();
+
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then((user) => {
+        if (user) history.push("/");
+      })
+      .catch((err) => console.log(err));
+  };
+
   return (
     <div className="login">
       <div className="login__container">
@@ -19,9 +38,13 @@ function Login() {
           <div className="login__forms">
             <h2 className="welcome__title__login">Welcome back to Edu-Uz</h2>
             <h1 className="login__title">Sign In</h1>
-            <form className="login__inputs">
-              <input type="text" id="email__number" placeholder="Enter your Email or Phone number" />
-              <input type="text" name="" id="password" placeholder="Enter your Password" />
+            <form className="login__inputs"  onSubmit={loginUse} >
+              <input type="text" id="email__number" placeholder="Enter your Email or Phone number"   value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required/>
+              <input type="text" name="" id="password" placeholder="Enter your Password"    value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required />
               <button id="login__button" type="submit">Login</button>
             </form>
             <div className="login__social__media">
