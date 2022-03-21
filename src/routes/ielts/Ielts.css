@@ -1,6 +1,6 @@
 .ielts__main__container {
     width: 90%;
-    min-height: 100vh;
+    min-height: 115vh;
     height: auto;
     padding-bottom: 40px;
     border-radius: 5px;
@@ -18,14 +18,16 @@
 }
 
 .section__block1 {
-    width: 100%;
+    width: 90%;
+    margin: 0px 5%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
 }
 
 .section__block2 {
-    width: 100%;
+    width: 90%;
+    margin: 0px 5%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -38,7 +40,7 @@
 .writing__section__tips,
 .speaking__section__tips {
     width: 28%;
-    height: 600px;
+    height: 650px;
     background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
@@ -50,36 +52,36 @@
 }
 
 .speaking__section__tips:hover {
-     box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.3s;
 }
 
 .writing__section__tips:hover {
-     box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.3s;
 }
 
 .speaking__section:hover {
-     box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.3s;
 }
 
 .reading__section:hover {
-     box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.3s;
 }
 
 .writing__section:hover {
-     box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.3s;
 }
 
 .listening__section:hover {
-     box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.3s;
 }
 
 .speaking__section:hover {
-     box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
+    box-shadow: 0px 0px 14px 1px rgba(71, 145, 243, 0.849);
     transition: 0.3s;
 }

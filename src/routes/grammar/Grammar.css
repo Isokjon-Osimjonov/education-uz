@@ -1,6 +1,6 @@
 .grammar__main__container {
     width: 90%;
-    min-height: 100vh;
+    min-height: 115vh;
     height: auto;
     padding-bottom: 40px;
     border-radius: 5px;
@@ -12,7 +12,7 @@
 }
 
 .grammars__levels {
-    width: 1541px;
+    width: 90%;
     height: 1240px;
     margin: 0px 5%;
     display: flex;
@@ -20,23 +20,26 @@
 }
 
 .degree__block1 {
-    width: 100%;
+    width: 90%;
+    margin: 0px 5%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
 }
 
 .degree_block2 {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
+    margin: 0px 5%;
+
 }
 
 
 .degree_a1 {
     width: 28%;
-    height: 600px;
+    height: 650px;
     background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
@@ -93,7 +96,7 @@
 
 .degree_a2 {
     width: 28%;
-    height: 600px;
+    height: 650px;
     background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
@@ -106,7 +109,7 @@
 
 .degree_b1 {
     width: 28%;
-    height: 600px;
+    height: 650px;
     background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
@@ -120,7 +123,7 @@
 
 .degree_b2 {
     width: 28%;
-    height: 600px;
+    height: 650px;
     background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
@@ -133,7 +136,7 @@
 
 .degree_b2-c1 {
     width: 28%;
-    height: 600px;
+    height: 650px;
     background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;
@@ -146,7 +149,7 @@
 
 .degree_c1 {
     width: 28%;
-    height: 600px;
+    height: 650px;
     background-color: #83b3f1;
     border-radius: 65px 0px 65px 0px;
     border-radius: 40px;

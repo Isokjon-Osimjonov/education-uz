@@ -6,7 +6,7 @@ import Google from "../../assets/images/Google.png";
 import Back from "../../assets/images/back.svg";
 
 import { useHistory } from "react-router-dom";
-import { auth } from "../../auth/Firebase_auth";
+import { auth, googleProvider, firebase } from "../../auth/Firebase_auth";
 
 function Login() {
 
@@ -16,13 +16,22 @@ function Login() {
   const loginUse = (e) => {
     e.preventDefault();
 
-    auth
-      .signInWithEmailAndPassword(email, password)
+    
+    auth.signInWithEmailAndPassword(email, password)
       .then((user) => {
         if (user) history.push("/");
       })
       .catch((err) => console.log(err));
   };
+
+   
+  const signInwithGoogle = () => {
+    auth.signInWithPopup(googleProvider)
+    .then((user) => {
+      if (user) history.push("/");
+    })
+    .catch((err) => console.log(err));
+}
 
   return (
     <div className="login">
@@ -52,7 +61,7 @@ function Login() {
             </div>
             <div className="login__media__icons">
               <h2>Sign In with Google</h2>
-            <img src={Google} alt="" className="google__link" />
+              <img  onClick={signInwithGoogle} src={Google} alt="" className="google__link" /> 
             </div>
             <div className="already__user">
               <h1 className="sue">You don't have an account yet? </h1>
