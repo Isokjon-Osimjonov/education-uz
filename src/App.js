@@ -15,6 +15,7 @@ import Contact from "./routes/contact/Contact";
 import Quiz from "./routes/quiz/Quiz";
 import Vocabulary from "./routes/vocabulary/Vocabulary";
 import Materials from "./routes/materials/Materials";
+import Beginner_A1 from "./routes/grammar/grammar_levels/beginnerA1/Beginner_A1";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/quiz" component={Quiz} />
           <Route path="/vocabulary" component={Vocabulary} />
           <Route path="/materials" component={Materials} />
+          <Route path="/beginner" component={Beginner_A1} />
         </Switch>
         <Footer />
       </div>

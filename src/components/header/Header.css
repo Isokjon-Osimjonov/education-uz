@@ -120,7 +120,7 @@
 }
 
 /* macbook 2560px==================================================================== */
-@media screen and (min-width:2560px),
+/* @media screen and (min-width:2560px),
 (min-height:1600px) {
     .header {
         width: 99%;
@@ -147,7 +147,7 @@
         font-size: 50px;
 
     }
-}
+} */
 
 /* 1920px ===================================================================== */
 /* @media screen and (min-width:1905px),
@@ -181,7 +181,7 @@
 
 
 /* 1366=================================================== */
-@media screen and (max-width:1366px) and (min-width: 1366px) {
+/* @media screen and (max-width:1366px) and (min-width: 1366px) {
     .header {
         width: 1354px;
         height: 80px;
@@ -218,4 +218,4 @@
         width: 1354px;
         height: 691px;
     }
-}
+} */
